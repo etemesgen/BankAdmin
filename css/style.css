@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/*RESET*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 1.6rem "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*DEBUT*/
+img {
+  max-width: 100%;
+  width: 12rem;
+  margin: 5rem 0rem 0rem 30rem;
+}
+
+h1 {
+  text-align: center;
+  margin: -8rem 0rem 0rem 0rem;
+  color: cornflowerblue;
+}
+
+h2 {
+  text-align: center;
+  margin: 8rem 0rem 0rem 0rem;
+  background-color: #222;
+  color: #fff;
+}
+
+table {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+th {
+  width: 20rem;
+  background-color: rgb(41, 4, 143);
+  color: #fff;
+}
+
+td {
+  text-align: center;
+  background-color: rgb(218, 221, 174);
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(4, 145, 27);
+  color: #fff;
+  padding: 1rem;
+  margin: 10rem 0rem 0rem 59.5rem;
+}
+
+#formulaire {
+  max-width: 100%;
+}
+
+label,
+input {
+  display: block;
+  width: 30rem;
+  padding: 0.8rem;
+  margin: 0rem 0rem 0rem 52rem;
+}
+
+input[type="text"] {
+  padding: 0.1rem;
+  line-height: 2.5rem;
+  border: solid 0.1rem transparent;
+  border-bottom-color: #ccc;
+  margin-bottom: 1rem;
+}
+
+label {
+  padding: 5px;
+  color: #333;
+}
+
+input[type="submit"] {
+  background: rgb(4, 145, 27);
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  font-size: inherit;
+  cursor: pointer;
+  width: 12rem;
+  margin: 0 auto;
+}
+
+.warning {
+  color: rgb(199, 12, 12);
+  text-align: center;
+}
+
+.success {
+  color: rgb(16, 133, 16);
+  text-align: center;
+}
