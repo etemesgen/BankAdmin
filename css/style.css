@@ -16,13 +16,14 @@ body {
 /*DEBUT*/
 img {
   max-width: 100%;
-  width: 12rem;
+  width: 17rem;
   margin: 5rem 0rem 0rem 30rem;
+  border-radius: 0.5rem;
 }
 
 h1 {
   text-align: center;
-  margin: -8rem 0rem 0rem 0rem;
+  margin: -7rem 0rem 0rem 2rem;
   color: cornflowerblue;
 }
 

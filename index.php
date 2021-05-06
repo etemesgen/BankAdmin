@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./asset/Logo_ico.ico" />
     <title>BankAdmin</title>
 </head>
 <body>
-    <img src="./asset/admin.png">
+    <img src="./asset/Logo.png">
     <h1>Bienvenue sur BankAdmin</h1>
     <h2>Gérer vos clients en toute tranquillité !</h2>
     <br>
