@@ -1,6 +1,6 @@
 <?php
     //Se connecter à la base de données 
-    $pdo = new PDO('mysql:host=localhost;dbname=bankadmin;charset=utf8','root','');
+    $pdo = new PDO('mysql:host=localhost;dbname=bankadmin;charset=utf8','root','Edo2000!');
 
     //On récupère les clients
     $reponse = $pdo->query('SELECT * FROM `user` LIMIT 10'); 

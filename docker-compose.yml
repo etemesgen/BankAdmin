@@ -1,0 +1,24 @@
+version: "3"
+services:
+  db:
+    image: mariadb:10.4.10
+    volumes:
+      - db_data:/var/lib/mariadb
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=Edo2000!.
+      - MYSQL_DATABASE=bankadmin
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=Edo2000!
+
+  website:
+    container_name: php72
+    build:
+      context: ./
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+
+volumes:
+  db_data: {}

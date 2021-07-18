@@ -1,7 +1,7 @@
 <?php
     //Se connecter avec la BDD
     try{
-        $pdo = new PDO('mysql:host=localhost;dbname=bankadmin;charset=utf8','root','');
+        $pdo = new PDO('mysql:host=localhost;dbname=bankadmin;charset=utf8','root','Edo2000!');
     }
     catch(Exception $e){
         die('Erreur : '.$e -> getMessage());
